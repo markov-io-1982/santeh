@@ -1,0 +1,238 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 50%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+}
+
+.footer {
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\e151";
+}
+
+a.desc:after {
+    content: "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav > li > form {
+    padding: 8px;
+}
+
+@media (max-width: 768px) {
+    .nav li > form {
+        padding: 3px;
+    }
+}
+
+.nav > li > form > button:hover {
+    text-decoration: none;
+}
+
+/* The style for top menu */
+.top-menu-layouts {
+    padding-top: 3px;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    margin-bottom: 15px;
+    background-color: #5394cc;
+    border-radius: 7px;
+}
+
+#w1 a:hover, #w2 a:hover {
+    color: #fedb8a !important;
+    background-color: #5394cc;
+    border-radius: 3px;
+}
+
+#w2 .dropdown-toggle {
+    background-color: #5394cc;
+}
+
+.top-menu-layouts .navbar-nav > li > a {
+    color: white !important;
+}
+
+.top-menu-layouts .navbar-right {
+    margin-right: 20px;
+}
+
+.top-menu-layouts .row > ul {
+    padding-left: 15px;
+    padding-right: 25px;
+}
+
+.top-menu-layouts .row > li > a {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-menu-layouts .dropdown-menu {
+    background-color: #5394cc;
+}
+
+.top-menu-layouts .dropdown-menu > li > a {
+    color: white !important;
+}
+
+.top-menu-layouts-search {
+    padding-top: 3px;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+
+/* End the style for top menu */
+
+
+ul.category-products {
+    padding-left: 3px;
+    /*padding-right: 5px;*/
+    list-style-type: none;
+}
+
+.category-products ul {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.category-products li {
+    padding: 5px 0 5px 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.category-products a{
+    color: #000000;
+    margin-left: 5px;
+}
+
+.category-products .panel {
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+
+.category-products .panel-default .panel-heading {
+    background-color: #FFFFFF;
+    border: 0 none;
+    color: #FFFFFF;
+    padding: 5px 20px;
+}
+
+.category-products .panel-default .panel-heading .panel-title a {
+    color: #696763;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.panel-group .panel-heading + .panel-collapse .panel-body {
+    border-top: 0 none;
+}
+
+.category-products .panel-default .badge {
+    background: none;
+    border-radius: 10px;
+    color: #696763;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    min-width: 10px;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+.list-accor a:hover {
+    color: #5394cc !important;
+    text-decoration: none;
+}

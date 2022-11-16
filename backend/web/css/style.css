@@ -1,0 +1,46 @@
+/* product form */
+
+input[id$="-sort_position"] {
+    text-align: center;
+    font-weight: bold;
+}
+
+[class^="btn-other"] {
+	cursor: pointer;
+}
+
+.grid-view .table td {
+	vertical-align: middle;
+}
+
+.menu>.active {
+	background-color: #f4f4f4;
+}
+
+.menu>li>.language {
+	margin: 0;
+    padding: 10px 10px;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;		
+}
+
+.menu>li>.language:hover {
+	cursor: pointer;
+	background-color: #f4f4f4;
+}
+
+.btn-other-description,
+.btn-other-complectation {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-other-description:hover,
+.btn-other-complectation:hover {
+    box-shadow: 1px 1px 3px gray;
+}
+
+.form-group > .field-category-description_ru {
+    height: 200px;
+}
